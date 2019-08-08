@@ -17,7 +17,8 @@ def reverse_each_word(statement)
   reversement = []
   reversement = arrayment.collect { |memo| memo.reverse}
   tnemetats = ""
-  reversement.length.times { |index|
+  size = reversement.length
+  size.times { |index|
     tnemetats += reversement[index]
     if reversement[index] != reversement[-1]
       tnemetats += " "
